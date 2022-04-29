@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		8FB1124F281B0915002A91FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1124E281B0915002A91FF /* AppDelegate.swift */; };
 		8FB11251281B0915002A91FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11250281B0915002A91FF /* SceneDelegate.swift */; };
-		8FB11253281B0915002A91FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11252281B0915002A91FF /* ViewController.swift */; };
-		8FB11256281B0915002A91FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11254281B0915002A91FF /* Main.storyboard */; };
 		8FB11258281B091D002A91FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11257281B091D002A91FF /* Assets.xcassets */; };
 		8FB1125B281B091D002A91FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11259281B091D002A91FF /* LaunchScreen.storyboard */; };
+		8FB1126A281B11D6002A91FF /* DrawWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11268281B11D6002A91FF /* DrawWordsViewController.swift */; };
+		8FB1126B281B11D6002A91FF /* DrawWordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11269281B11D6002A91FF /* DrawWordsViewController.xib */; };
+		8FB1126E281B1BC5002A91FF /* MusicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1126C281B1BC5002A91FF /* MusicDetailsViewController.swift */; };
+		8FB1126F281B1BC5002A91FF /* MusicDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB1126D281B1BC5002A91FF /* MusicDetailsViewController.xib */; };
+		8FB11273281B1F49002A91FF /* FoundRecordingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11271281B1F49002A91FF /* FoundRecordingTableViewCell.swift */; };
+		8FB11274281B1F49002A91FF /* FoundRecordingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11272281B1F49002A91FF /* FoundRecordingTableViewCell.xib */; };
+		8FB11278281B2221002A91FF /* RandomWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11277281B2221002A91FF /* RandomWord.swift */; };
+		8FB1127A281B2240002A91FF /* MusicDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11279281B2240002A91FF /* MusicDetails.swift */; };
+		8FB1127C281B2307002A91FF /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1127B281B2307002A91FF /* UIViewController.swift */; };
+		8FB11283281C2D43002A91FF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11281281C2D43002A91FF /* DetailsViewController.swift */; };
+		8FB11284281C2D43002A91FF /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB11282281C2D43002A91FF /* DetailsViewController.xib */; };
+		8FB11286281C31BF002A91FF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB11285281C31BF002A91FF /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8FB1124B281B0915002A91FF /* InternshipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternshipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB1124E281B0915002A91FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB11250281B0915002A91FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FB11252281B0915002A91FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FB11255281B0915002A91FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FB11257281B091D002A91FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FB1125A281B091D002A91FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FB1125C281B091D002A91FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB11268281B11D6002A91FF /* DrawWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWordsViewController.swift; sourceTree = "<group>"; };
+		8FB11269281B11D6002A91FF /* DrawWordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawWordsViewController.xib; sourceTree = "<group>"; };
+		8FB1126C281B1BC5002A91FF /* MusicDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewController.swift; sourceTree = "<group>"; };
+		8FB1126D281B1BC5002A91FF /* MusicDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicDetailsViewController.xib; sourceTree = "<group>"; };
+		8FB11271281B1F49002A91FF /* FoundRecordingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundRecordingTableViewCell.swift; sourceTree = "<group>"; };
+		8FB11272281B1F49002A91FF /* FoundRecordingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoundRecordingTableViewCell.xib; sourceTree = "<group>"; };
+		8FB11277281B2221002A91FF /* RandomWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWord.swift; sourceTree = "<group>"; };
+		8FB11279281B2240002A91FF /* MusicDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetails.swift; sourceTree = "<group>"; };
+		8FB1127B281B2307002A91FF /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8FB11281281C2D43002A91FF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8FB11282281C2D43002A91FF /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		8FB11285281C31BF002A91FF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,55 @@
 			children = (
 				8FB1124E281B0915002A91FF /* AppDelegate.swift */,
 				8FB11250281B0915002A91FF /* SceneDelegate.swift */,
-				8FB11252281B0915002A91FF /* ViewController.swift */,
-				8FB11254281B0915002A91FF /* Main.storyboard */,
+				8FB11262281B0E7C002A91FF /* Models */,
+				8FB11264281B0E94002A91FF /* Extensions */,
+				8FB11265281B0EA2002A91FF /* Controllers */,
 				8FB11257281B091D002A91FF /* Assets.xcassets */,
 				8FB11259281B091D002A91FF /* LaunchScreen.storyboard */,
 				8FB1125C281B091D002A91FF /* Info.plist */,
 			);
 			path = InternshipApp;
+			sourceTree = "<group>";
+		};
+		8FB11262281B0E7C002A91FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FB11277281B2221002A91FF /* RandomWord.swift */,
+				8FB11279281B2240002A91FF /* MusicDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FB11264281B0E94002A91FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8FB1127B281B2307002A91FF /* UIViewController.swift */,
+				8FB11285281C31BF002A91FF /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8FB11265281B0EA2002A91FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FB11268281B11D6002A91FF /* DrawWordsViewController.swift */,
+				8FB11269281B11D6002A91FF /* DrawWordsViewController.xib */,
+				8FB1126C281B1BC5002A91FF /* MusicDetailsViewController.swift */,
+				8FB1126D281B1BC5002A91FF /* MusicDetailsViewController.xib */,
+				8FB11281281C2D43002A91FF /* DetailsViewController.swift */,
+				8FB11282281C2D43002A91FF /* DetailsViewController.xib */,
+				8FB11270281B1F04002A91FF /* Cells */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8FB11270281B1F04002A91FF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8FB11271281B1F49002A91FF /* FoundRecordingTableViewCell.swift */,
+				8FB11272281B1F49002A91FF /* FoundRecordingTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB11284281C2D43002A91FF /* DetailsViewController.xib in Resources */,
+				8FB1126B281B11D6002A91FF /* DrawWordsViewController.xib in Resources */,
+				8FB1126F281B1BC5002A91FF /* MusicDetailsViewController.xib in Resources */,
 				8FB1125B281B091D002A91FF /* LaunchScreen.storyboard in Resources */,
 				8FB11258281B091D002A91FF /* Assets.xcassets in Resources */,
-				8FB11256281B0915002A91FF /* Main.storyboard in Resources */,
+				8FB11274281B1F49002A91FF /* FoundRecordingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +203,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB11253281B0915002A91FF /* ViewController.swift in Sources */,
+				8FB11273281B1F49002A91FF /* FoundRecordingTableViewCell.swift in Sources */,
+				8FB1126A281B11D6002A91FF /* DrawWordsViewController.swift in Sources */,
+				8FB11286281C31BF002A91FF /* UIView.swift in Sources */,
+				8FB1127C281B2307002A91FF /* UIViewController.swift in Sources */,
+				8FB11278281B2221002A91FF /* RandomWord.swift in Sources */,
+				8FB1127A281B2240002A91FF /* MusicDetails.swift in Sources */,
 				8FB1124F281B0915002A91FF /* AppDelegate.swift in Sources */,
+				8FB1126E281B1BC5002A91FF /* MusicDetailsViewController.swift in Sources */,
 				8FB11251281B0915002A91FF /* SceneDelegate.swift in Sources */,
+				8FB11283281C2D43002A91FF /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8FB11254281B0915002A91FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FB11255281B0915002A91FF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FB11259281B091D002A91FF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NX2HHD4XA8;
@@ -294,7 +359,7 @@
 				INFOPLIST_FILE = InternshipApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +369,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = m.frak.InternshipApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NX2HHD4XA8;
@@ -322,7 +389,7 @@
 				INFOPLIST_FILE = InternshipApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,9 +399,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = m.frak.InternshipApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
